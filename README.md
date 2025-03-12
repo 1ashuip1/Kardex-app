@@ -35,33 +35,15 @@ Este es un proyecto de aplicación móvil desarrollado en **Flutter** para gesti
    ```bash
    git clone https://github.com/1ashuip1/Kardex-app.git
 Navega al Directorio del Proyecto:
-```bashbash
-
-Contraer
-
-Ajuste
-
-Copiar
+  ```bash
 cd Kardex-app
 Instala las Dependencias:
-bash
-
-Contraer
-
-Ajuste
-
-Copiar
+```bash
 flutter pub get
 Conecta un Dispositivo o Emulador:
 Conecta un dispositivo Android/iOS o inicia un emulador desde Android Studio/VSCode.
 Ejecuta el Proyecto:
-bash
-
-Contraer
-
-Ajuste
-
-Copiar
+```bash
 flutter run
 Acceso a la Aplicación
 La aplicación incluye credenciales provisionales para pruebas. Usa las siguientes credenciales para iniciar sesión como administrador:
