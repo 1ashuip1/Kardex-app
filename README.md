@@ -35,7 +35,7 @@ Este es un proyecto de aplicación móvil desarrollado en **Flutter** para gesti
    ```bash
    git clone https://github.com/1ashuip1/Kardex-app.git
 Navega al Directorio del Proyecto:
-bash
+```bashbash
 
 Contraer
 
