@@ -31,45 +31,44 @@ Este es un proyecto de aplicación móvil desarrollado en **Flutter** para gesti
 
 ### Instalación
 
-1. **Clona el Repositorio:**
-   ```bash
+#### 1. Clona el Repositorio:
+   ```
    git clone https://github.com/1ashuip1/Kardex-app.git
-Navega al Directorio del Proyecto:
-  ```bash
-cd Kardex-app
-Instala las Dependencias:
-```bash
+   ```
+#### 2. Navega al Directorio del Proyecto:
+  ```
+  cd Kardex-app
+  ```
+#### 3. Instala las Dependencias:
+```
 flutter pub get
-Conecta un Dispositivo o Emulador:
+```
+#### 4. Conecta un Dispositivo o Emulador:
 Conecta un dispositivo Android/iOS o inicia un emulador desde Android Studio/VSCode.
-Ejecuta el Proyecto:
-```bash
+#### 5. Ejecuta el Proyecto:
+```
 flutter run
-Acceso a la Aplicación
+```
+### Acceso a la Aplicación
 La aplicación incluye credenciales provisionales para pruebas. Usa las siguientes credenciales para iniciar sesión como administrador:
 
-Usuario: admin@gmail.com
-Contraseña: admin
-Nota: Estas son credenciales de prueba. Para un entorno de producción, se recomienda implementar un sistema de autenticación seguro (como Firebase Authentication) y cambiar estas credenciales.
+#### Usuario: admin@gmail.com
+#### Contraseña: admin
+#### Nota: Estas son credenciales de prueba. Para un entorno de producción, se recomienda implementar un sistema de autenticación seguro (como Firebase Authentication) y cambiar estas credenciales.
 
-Estructura del Proyecto
-lib/: Contiene el código fuente en Flutter.
-main.dart: Punto de entrada de la aplicación.
-course_screen.dart: Pantalla principal para gestionar observaciones, reportes y citaciones.
-historial_estudiante.dart: Pantalla para buscar estudiantes y ver su historial.
-historial_detallado.dart: Pantalla para mostrar el historial detallado por materia y fecha.
-assets/: Carpeta para imágenes, iconos y otros recursos (actualmente vacía, pero puedes añadirlos).
-android/: Configuraciones específicas para Android.
-ios/: Configuraciones específicas para iOS (si planeas compilar para iOS).
-pubspec.yaml: Archivo de configuración de dependencias.
-Contribuir
-Haz un fork del repositorio.
-Crea una rama para tu nueva funcionalidad (git checkout -b feature/nueva-funcionalidad).
-Haz tus cambios y confirma (git commit -m "Añadir nueva funcionalidad").
-Sube tus cambios (git push origin feature/nueva-funcionalidad).
-Crea un Pull Request en GitHub.
-Notas Adicionales
-Estado Actual: La app está en desarrollo. Algunas funcionalidades (como soporte offline y conexión a base de datos remota) están en proceso de implementación.
-Siguientes Pasos: Integrar Firebase o una API REST para almacenar datos remotamente, y mejorar la interfaz de usuario con autenticación segura.
-Contacto
-Si tienes preguntas o sugerencias, puedes contactarme a través de GitHub: 1ashuip1.
+## Estructura del Proyecto
+- **lib/:** Contiene el código fuente en Flutter.
+- **main.dart:** Punto de entrada de la aplicación.**
+- **course_screen.dart:** Pantalla principal para gestionar observaciones, reportes y citaciones.
+- **historial_estudiante.dart:** Pantalla para buscar estudiantes y ver su historial.
+- **historial_detallado.dart:** Pantalla para mostrar el historial detallado por materia y fecha.
+- **assets/:** Carpeta para imágenes, iconos y otros recursos (actualmente vacía, pero puedes añadirlos).
+- **android/:** Configuraciones específicas para Android.
+- **ios/:** Configuraciones específicas para iOS (si planeas compilar para iOS).
+- **pubspec.yaml:** Archivo de configuración de dependencias.
+
+## Notas Adicionales
+**Estado Actual:** La app está en desarrollo. Algunas funcionalidades (como soporte offline y conexión a base de datos remota) están en proceso de implementación.
+**Siguientes Pasos:** Integrar Firebase o una API REST para almacenar datos remotamente, y mejorar la interfaz de usuario con autenticación segura.
+## Contacto
+#### Si tienes preguntas o sugerencias, puedes contactarme a través de GitHub: 1ashuip1.
